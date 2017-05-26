@@ -2,10 +2,12 @@
   box-sizing: border-box;
 }
 
+
 body {
   margin: 0;
   font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
 
 h1 {
   font-size: 5.5rem;
@@ -16,6 +18,24 @@ h1 {
   text-align: center
 }
 
+.fixed-navbar {
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-right: 20px;
+}
+
+.fixed-navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 22px;
+  text-decoration: none;
+  font-size: 20px;
+
+}
 .main-header {
   background-color: #36b3a8;
   padding-top: 170px;
