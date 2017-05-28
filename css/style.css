@@ -6,6 +6,7 @@
 body {
   margin: 0;
   font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  max-width: 1800px;
 }
 
 
@@ -36,6 +37,7 @@ h1 {
   font-size: 20px;
 
 }
+
 .main-header {
   background-color: #36b3a8;
   padding-top: 170px;
@@ -44,5 +46,37 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.main-footer  {
+  color: rgb(146,146,146);
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-top: 30px;
+  background-color: rgb(31,31,31);
+}
+
+.main-footer p {
+  display: inline;
+  width: 12%;
+  padding: 20px;
+
+}
+
+.main-footer a {
+  display: inline;
+  width: 12%;
+  padding;20px
+}
+
+.main-footer a:link {
+  color: rgb(146,146,146);
+  text-decoration: none;
+}
+
+.main-footer a:visited {
+  color: (146,146,146);
 }
 
