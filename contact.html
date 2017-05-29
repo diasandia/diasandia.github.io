@@ -2,30 +2,42 @@
  <html>
    <head>
      <title>Contact</title>
+     <link rel="stylesheet" type="text/css" href="css/style.css">
    </head>
 
    <body>
-    <nav>
-      <a href="index.html">Back</a>
-    </nav>
-    <h1>Contact</h1>
-      <P>Say hello!</P>
-      <form action="thank_you_page.html">
-        <div>
-          <label>Name</label>
-          <input type="text" name="name">
-        </div>
-        <div>
-          <label>Email</label>
-          <input type="email" name="email">
-        </div>
-        <div>
-          <label>Msg</label>
-          <textarea rows="2" cols="20"> </textarea>
-        </div>
-        <div>
-         <input type="submit">
-        </div>
-      </form>
+       <nav class="fixed-navbar">
+        <a href="contact.html">Contact</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="about.html">About</a>
+        <a href="index.html">Home</a>
+      </nav>
+      <header class="main-header" id="contact-img">
+        <h1>Hello</h1>
+      </header>
+      <div class="primary-content" id="msgform">
+        <h2>Say hello!</h2>
+        <form action="thankyou.html">
+          <div>
+            <label>Name</label>
+            <input type="text" name="name">
+          </div>
+          <div>
+            <label>Email</label>
+            <input type="email" name="email">
+          </div>
+          <div>
+            <label>Note</label>
+            <input type="text" name="name">
+          </div>
+          <div>
+           <input type="submit">
+          </div>
+        </form>
+      </div>
+      <footer class="main-footer">
+        <p>San Francisco, CA </p>
+        <a href="mailto:hello@diasandoval.com">Hello@diasandoval.com</a>
+      </footer>
    </body>
  </html>
