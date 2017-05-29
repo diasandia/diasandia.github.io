@@ -1,3 +1,7 @@
+/*/////////////////////////
+Base Styles
+////////////////////////*/
+
 * {
   box-sizing: border-box;
 }
@@ -8,6 +12,19 @@ body {
   font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   max-width: 1800px;
 }
+
+h1 {
+  font-size: 5.5rem;
+  color: white;
+  text-transform: uppercase;
+  font-weight: normal;
+  line-height: 1.3;
+  text-align: center
+}
+
+/*/////////////////////////
+Main Styles
+////////////////////////*/
 
 .fixed-navbar {
   background-color: rgba(3,3,3,0.7);
@@ -27,11 +44,7 @@ body {
   font-size: 20px;
 }
 
-a:link {
-  color: #f2f2f2;
-}
-
-a:hover{
+a:hover{                /* Pseudo-class ---------/*/
   color: rgb(67,74,82);
 }
 
@@ -60,21 +73,15 @@ a:hover{
   background-image: url('../img/jtree.jpg');
 }
 
-.main-header h1 {
-  font-size: 5.5rem;
-  color: white;
-  text-transform: uppercase;
-  font-weight: normal;
-  line-height: 1.3;
-  text-align: center
-}
-
 .primary-content {
+  color: black;
   text-align: center;
   padding: 25px 400px;
   margin: 30px 60px;
   min-width: 100px;
 }
+
+/* Main Footer ---------/*/
 
 .main-footer  {
   color: rgb(146,146,146);
@@ -103,4 +110,46 @@ a:hover{
   text-decoration: none;
 }
 
+/*/////////////////////////
+Contact Form
+////////////////////////*/
+
+#msgform div {
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+input[type=text], select {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type=email], select {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    width: 80%;
+    background-color: rgb(67,74,82);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #36b3a8;
+}
 
