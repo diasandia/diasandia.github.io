@@ -63,11 +63,11 @@ a:hover{                /* Pseudo-class ---------/*/
 }
 
 #home-img {
-  background-image: url('../img/dsa.jpeg');
+  background-image: url('../img/DSA.jpeg');
 }
 
 #about-img {
-  background-image: url('../img/cal.jpeg');
+  background-image: url('../img/Cal.jpeg');
 }
 
 #portfolio-img {
@@ -75,7 +75,7 @@ a:hover{                /* Pseudo-class ---------/*/
 }
 
 #contact-img {
-  background-image: url('../img/jtree.jpg');
+  background-image: url('../img/Jtree.jpg');
 }
 
 .primary-content {
